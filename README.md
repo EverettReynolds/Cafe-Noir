@@ -1,1 +1,1 @@
-# IST126Website
+# IST 126 Website & Classwork
