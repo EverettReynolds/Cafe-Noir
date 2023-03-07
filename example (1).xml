@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="example.xsl"?>
+<geo_feature>
+<archipelago>
+<a_name>Windward Islands</a_name>
+<island><iName>Tahiti</iName></island>
+<island><iName>Moorea</iName></island>
+<island><iName>Maiao</iName></island>
+<island><iName>Mehetia</iName></island>
+<island><iName>Tetiaroa</iName></island>
+</archipelago>
+
+<archipelago>
+<a_name>Galapagos</a_name>
+<island><iName>Isabela</iName></island>
+<island><iName>Fernandina</iName></island>
+<island><iName>Tower</iName></island>
+<island><iName>Santa Cruz</iName></island>
+</archipelago>
+
+</geo_feature>

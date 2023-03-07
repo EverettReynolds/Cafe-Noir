@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+	</head>
+	<body>
+		<h2> My Calculator </h2>
+		<p> This is a basic calculator I designed to perform multiplication, division, addition, and subtraction operations</p>
+		<table>
+		<tr>
+			<td>
+				<form>
+					<input id="val1" type="text"></input> 
+				<form>
+			</td>
+			<td>
+				<form>
+					<input id="times" type="button" value="X" onclick="multiply()"></input> 
+				<form>
+			</td>
+			<td>
+				<form>
+					<input id="divide" type="button" value="/" onclick = "division()"></input> 
+				<form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form>
+					<input id="val2" type="text"></input> 
+				<form>
+			</td>
+			<td>
+				<form>
+					<input id="add" type="button" value="+" onmouseover = "addition()"></input> 
+				<form>
+			</td>
+			<td>
+				<form>
+					<input id="minus" type="button" value="-" onclick = "subtract()"></input> 
+				<form>
+			</td>
+		</tr>
+		</table>
+		The result is: <p id="result"> </p>
+	</body>
+</html>
+
+<script type="text/javascript" src="calculator.js"></script>

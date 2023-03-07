@@ -1,0 +1,57 @@
+import java.util.*;
+public class BankAccountTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ BankAccount myBankAccount = new BankAccount(); // Bank Account is created with a balance of zero
+// BankAccount myBankAccountt = new BankAccount(500.00); // Bank Account object is created with a balance of $500 
+ double amount;
+ double balance = 0;
+ int count = 0;
+ Scanner in = new Scanner ( System.in );
+ int choice = 0 ;
+ myBankAccount.menu();
+ choice = in.nextInt();
+ while ( choice > 0 && choice < 5 && count == 0) // For loop allowing for only one loop would be best here
+ {
+	 if (choice == 1)
+	 {
+		
+		 System.out.println("Enter The amount of your deposit.");
+		 amount = in.nextDouble();
+		 myBankAccount.deposit(amount);
+		 balance = myBankAccount.getBalance();
+		 System.out.println(balance);
+		 count++;
+	 }
+	 if (choice == 2)
+	 {
+		 System.out.println(" Enter the amount you would like to withdraw.");
+		 amount = in.nextDouble();
+		 if ( balance < 0)
+		 {
+			 System.out.println(" You cannot withdraw any funds");
+		 }
+		 myBankAccount.withdraw(amount);
+		  balance = myBankAccount.getBalance();
+		 System.out.println(balance);
+		 count++;
+	 }
+	 if (choice == 3)
+	 {
+		balance =  myBankAccount.getBalance();
+		System.out.println(" Your Bank Account's total amount of funds is " + balance);
+		count++;
+	 }
+	 if ( choice == 4 )
+	 {
+		 System.out.println(" Thank you for using our bank account services!");
+		 System.out.println(" Have a Pleasant Day! ");
+		 count ++;
+		
+		 
+	 }
+ }
+	}
+
+}

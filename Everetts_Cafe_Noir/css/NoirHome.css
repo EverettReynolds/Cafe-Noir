@@ -1,0 +1,139 @@
+html {
+  background-color: #54381b;
+}
+
+head,
+body,
+h1,
+nav,
+ul,
+li,
+p,
+figcaption {
+  display: block;
+}
+
+body {
+  color: whitesmoke;
+  display: block;
+  border-right: 5px solid;
+  border-left: 5px solid;
+  text-align: center;
+  margin: 100px auto;
+  font-size: 15px;
+}
+.java {
+  border: 5px solid black;
+  background: url(../images/CafeGreyScale.jpg) center / cover no-repeat;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+ul {
+  margin: auto;
+  text-align: center;
+}
+li {
+  display: inline;
+  color: red;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  text-align: center;
+  background-color: grey;
+}
+a:visited {
+  color: wheat;
+}
+
+.heart {
+  display: block;
+  float: center;
+  width: 420px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  background-position: right;
+}
+
+/* About Us Page Special Characterisics */
+
+.AboutUs {
+    background-color: #000000;
+    font-size: 30px;
+}
+.talkingtext
+{
+    font-size:30px;
+    font-family:Georgia;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/* Products and Services Page Special Characterisics */
+.Products {
+    background-color: #000000;
+    font-size: 30px;
+   
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#000000;
+    padding: 10px;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+  .item img {
+    height: 150px;
+    width: 150px;
+  }
+/* Technologies At Use Page Special Characterisics */
+.Technologies {
+    background-color: #000000;
+    font-size: 30px;
+    
+}
+/* Contact Us Page Special Characterisics */
+.ContactUs {
+    background-color: #000000;
+    font-size: 30px;
+}
+.info
+{
+ font-size: 100px;
+ font-family: Courier New;
+ margin-top: 0px;
+ margin-bottom: 5px;
+}
+.staff
+{
+    font-size: 30px;
+}
+.hours
+{
+    font-size: 30px;
+    text-align: center;
+    display:block;
+    border: 2px ridge white;
+    margin-right:1px;
+}

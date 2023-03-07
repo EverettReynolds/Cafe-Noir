@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title>Raffle</title></head>
+<body>
+<div class="pos">
+<h2>Everybody is a Winner</h2>
+<p>Feeling lucky? Want to get an <b>A</b>?<br/>Match  all 5 numbers (between 1 and 5) <br/>
+Numbers must be in the correct sequence  </p>
+<table>
+<tr>
+<td style="width: 50px">
+<form>
+<input type="text" id="p1" size="2">
+</form>
+</td>
+    <td style="width: 50px">
+<form>
+<input type="text" id="p2" size="2">
+</form>
+</td>
+    <td style="width: 50px">
+<form>
+<input type="text" id="p3" size="2">
+</form>
+</td>
+    <td style="width: 50px">
+<form>
+<input type="text" id="p4" size="2">
+</form>
+</td>
+    <td style="width: 50px">
+<form>
+<input type="text" id="p5" size="2">
+</form>
+</td>
+    <td style="width: 50px">
+<form>
+<input type="button" id="p1" value="submit" onclick="submitMe()">
+</form>
+</td>
+<tr>
+</table>
+<p>You matched <span  id="result">0</span> correct number(s)</p>
+<p>The correct sequence is: <span  id="num"></span></p>
+</div>
+</body>
+</html>
+
+<script src="raffle.js" type="text/javascript"></script>
+<style>
+table{
+background-color: pink;
+}
+div.pos{
+position: fixed;
+  top: 200px;
+ left: 200px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+</style>
